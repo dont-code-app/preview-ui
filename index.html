@@ -10,10 +10,14 @@
         // Storing the sessionId parameter before Angular removes it
     const queryString = location.search;
     let params = new URLSearchParams(queryString)
-    window.dontCodeId = params.get("sessionId");
+    window.dontCodeConfig =
+      {
+        sessionId:params.get("sessionId"),
+        projectId:params.get("projectId")
+      }
     // console.log("Request =",window.dontCodeId);
     </script>
     <preview-ui-root></preview-ui-root>
-  <script src="polyfills.eb5d93a54928268911d9.js" defer></script><script src="main.26b21b79f96f75f404dc.js" defer></script>
+  <script src="polyfills.ca41e28117ed7bc4fd36.js" defer></script><script src="main.8e92d26ee2548e0373f0.js" defer></script>
 
 </body></html>

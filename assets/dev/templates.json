@@ -143,7 +143,7 @@
         "name": "My Recipes",
         "entities": {
           "a": {
-            "name": "Recipe",
+            "name": "Test Recipe",
             "fields": {
               "a": {
                 "name": "Name"
@@ -158,7 +158,7 @@
               },
               "d": {
                 "name": "Stars",
-                "type": "Numeric"
+                "type": "Rating"
               }
             }
           }
